@@ -38,20 +38,20 @@ body::-webkit-scrollbar {
 /* front page */
 .background_title {
   position: relative;
-  margin-top: -150px;
+  margin-top: -110px;
   font-family: "roc-grotesk-wide", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 160px;
+  font-size: 130px;
   color: #000000;
 }
 .foreground_title {
   position: relative;
-  margin-top: -530px;
+  margin-top: -420px;
   font-family: "roc-grotesk-compressed", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 120px;
+  font-size: 90px;
   color: #eb2409;
   opacity: 0.9;
 }
@@ -59,49 +59,3 @@ h1 {
   text-align: center;
   line-height: 0.7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
