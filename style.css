@@ -59,13 +59,12 @@ h1, .about_vid {
   text-align: center;
   line-height: 0.7;
 }
-<<<<<<< HEAD
 
 .about_vid {
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
   font-style: normal;
-=======
+}
 /* adding the slider */
 .slider-container {
   position: relative;
@@ -75,7 +74,7 @@ h1, .about_vid {
 .line {
   width: 80%;
   height: 10px;
-  background-color: rgb(53, 47, 47);
+  background-color: rgb(113, 103, 103);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -91,7 +90,6 @@ h1, .about_vid {
   left: 0;
   transform: translate(-50%, -50%);
   cursor: grab;
->>>>>>> 21a595421fee9f87e7059105e675de4fd4bfd15c
 }
 
 
@@ -107,38 +105,3 @@ h1, .about_vid {
 
 
 
-
-
-<<<<<<< HEAD
-/* // */
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 21a595421fee9f87e7059105e675de4fd4bfd15c
