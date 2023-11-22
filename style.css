@@ -59,7 +59,35 @@ h1 {
   text-align: center;
   line-height: 0.7;
 }
+/* adding the slider */
+.slider-container {
+  position: relative;
+  padding-top: 150px;
+}
 
+.line {
+  width: 60%;
+  height: 5px;
+  /*center align the line horizontally*/ 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-image: url('/images/arrowhead.png'); 
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+}
 
 
 
