@@ -66,12 +66,9 @@ h1 {
 }
 
 .line {
-  width: 60%;
-  height: 5px;
-  /*center align the line horizontally*/ 
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ccc;
+  width: 80%;
+  height: 10px;
+  background-color: rgb(53, 47, 47);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
