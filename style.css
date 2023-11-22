@@ -25,6 +25,7 @@ font-style: normal;
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
+  /* background-color: #5df745; */
   overflow-y: scroll;
 }
 body::-webkit-scrollbar {
@@ -37,67 +38,24 @@ body::-webkit-scrollbar {
 /* front page */
 .background_title {
   position: relative;
-  font-family: "roc-grotesk-extrawide", sans-serif;
+  margin-top: -150px;
+  font-family: "roc-grotesk-wide", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 170px;
+  font-size: 160px;
   color: #000000;
 }
 .foreground_title {
   position: relative;
+  margin-top: -500px;
   font-family: "roc-grotesk-compressed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 100px;
   color: #eb2409;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 h1 {
   text-align: center;
+  line-height: 0.7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
