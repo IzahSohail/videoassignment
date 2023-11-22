@@ -55,7 +55,30 @@ body::-webkit-scrollbar {
   color: #eb2409;
   opacity: 0.9;
 }
-h1 {
+h1, .about_vid {
   text-align: center;
   line-height: 0.7;
 }
+
+.about_vid {
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // */
