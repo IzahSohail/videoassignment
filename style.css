@@ -25,7 +25,7 @@ font-style: normal;
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
-  background-image: url(/bg.png);
+  background-image: url(bg.png);
   overflow-y: scroll;
 }
 body::-webkit-scrollbar {
