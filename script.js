@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let isDragging = false;
 
     // Set the initial position of the arrow as a percentage of the screen width
-    const initialArrowPosition = 20; // Adjust this percentage as needed
+    const initialArrowPosition = 20; // 20% from the left
     const initialArrowLeft = (window.innerWidth * initialArrowPosition) / 100;
     arrow.style.left = `${initialArrowLeft}px`;
 

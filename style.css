@@ -49,7 +49,7 @@ h1, .about_vid {
   margin: 0 auto; /* Center horizontally */
 }
 .line {
-  width: 80%; /* Adjust the width as needed */
+  width: 80%; 
   height: 5px;
   background-color: #ccc;
   position: absolute;
