@@ -59,6 +59,9 @@ h1, .about_vid {
   text-align: center;
   line-height: 0.7;
 }
+body {
+  background-image: image(bg.png);
+}
 .about_vid {
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
