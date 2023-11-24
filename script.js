@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let isDragging = false;
 
     // Set the initial position of the arrow as a percentage of the screen width
-    const initialArrowPosition = 20; // 20% from the left
+    const initialArrowPosition = 35; // 20% from the left
     const initialArrowLeft = (window.innerWidth * initialArrowPosition) / 100;
     arrow.style.left = `${initialArrowLeft}px`;
 
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // Ensure the arrow stays within the bounds of the line
       if (x < 0) x = 0;
-      if (x > lineRect.width-20) {
+      if (x > lineRect.width-30) {
         // Redirect to "video.html" when the arrow reaches the right edge
         window.location.href = 'video.html';
         return;
