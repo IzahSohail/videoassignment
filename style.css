@@ -25,15 +25,12 @@ font-style: normal;
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
-  /* background-color: #5df745; */
+  background-image: url(/bg.png);
   overflow-y: scroll;
 }
 body::-webkit-scrollbar {
   display: none;
 }
-
-
-
 
 /* front page */
 .background_title {
@@ -59,10 +56,6 @@ h1, .about_vid {
   text-align: center;
   line-height: 0.7;
 }
-body {
-  background-image: image(bg.png);
-  opacity: 0.5;
-}
 .about_vid {
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
@@ -74,7 +67,6 @@ body {
   position: relative;
   padding-top: 150px;
 }
-
 .line {
   width: 60%;
   height: 5px;
@@ -86,7 +78,6 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .arrow {
   width: 50px;
   height: 50px;
