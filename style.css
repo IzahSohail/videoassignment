@@ -1,31 +1,10 @@
-/*
-FIRST FONT: <----
-font-family: "roc-grotesk", sans-serif;
-font-weight: 700;
-font-style: normal;
 
-font-family: "roc-grotesk-compressed", sans-serif;
-font-weight: 700;
-font-style: normal;
-
-font-family: "roc-grotesk-condensed", sans-serif;
-font-weight: 700;
-font-style: normal;
-//
-SECOND FONT: <----
-font-family: "anonymous-pro", monospace;
-font-weight: 700;
-font-style: normal;
-
-font-family: "anonymous-pro", monospace;
-font-weight: 400;
-font-style: normal;
-*/
 
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
   background-image: url(images/bg.png);
+  background-size: cover;
   overflow-y: scroll;
 }
 body::-webkit-scrollbar {
