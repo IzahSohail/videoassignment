@@ -25,8 +25,9 @@ font-style: normal;
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
-  /* background-color: #5df745; */
+  background-color: #301915; 
   overflow-y: scroll;
+  align-items: center; /* Center vertically */
 }
 body::-webkit-scrollbar {
   display: none;
@@ -38,22 +39,22 @@ body::-webkit-scrollbar {
 /* front page */
 .background_title {
   position: relative;
-  margin-top: -110px;
+  margin-top: -10px;
   font-family: "roc-grotesk-wide", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 130px;
-  color: #000000;
+  font-size: 100px;
+  color: #E6DBDB;
 }
 .foreground_title {
   position: relative;
-  margin-top: -420px;
+  margin-top: -320px;
   font-family: "roc-grotesk-compressed", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 90px;
-  color: #eb2409;
-  opacity: 0.9;
+  font-size: 60px;
+  color: #C22712;
+  /* opacity: 0.9; */
 }
 h1, .about_vid {
   text-align: center;
@@ -63,34 +64,39 @@ h1, .about_vid {
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
   font-style: normal;
-
+  
+}
 
 /* adding the slider */
 .slider-container {
   position: relative;
   padding-top: 150px;
+  margin: 0 auto; /* Center horizontally */
 }
 
 .line {
-  width: 60%;
+  width: 80%; /* Adjust the width as needed */
   height: 5px;
-  /*center align the line horizontally*/
-  margin-left: auto;
-  margin-right: auto;
   background-color: #ccc;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .arrow {
   width: 50px;
   height: 50px;
-  background-image: url('/images/arrowhead.png');
+  background-image: url('/images/right-arrow.png');
   background-size: cover;
   position: absolute;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
   cursor: grab;
+}
+
+
+.about_vid{
+  color: #ccc;
 }
