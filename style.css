@@ -4,7 +4,7 @@ body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
   background-image: url(images/bg.png);
-  background-size: 1920px 1080px;
+  background-size: auto;
   overflow-y: scroll;
   align-items: center; /* Center vertically */
 }
