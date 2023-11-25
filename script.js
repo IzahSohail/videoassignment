@@ -3,7 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const line = document.getElementById('line');
   
     let isDragging = false;
-  
+
+    // Set the initial position of the arrow as a percentage of the screen width
+    const initialArrowPosition = 35; // 20% from the left
+    const initialArrowLeft = (window.innerWidth * initialArrowPosition) / 100;
+    arrow.style.left = `${initialArrowLeft}px`;
+
     arrow.addEventListener('mousedown', function (e) {
       isDragging = true;
       arrow.style.cursor = 'grabbing';
@@ -15,16 +20,27 @@ document.addEventListener('DOMContentLoaded', function () {
       const lineRect = line.getBoundingClientRect();
       let x = e.clientX - lineRect.left;
   
-      // so the arrow stays within the line
+      // Ensure the arrow stays within the bounds of the line
       if (x < 0) x = 0;
-      if (x > lineRect.width) x = lineRect.width;
+      if (x > lineRect.width-30) {
+        // Redirect to "video.html" when the arrow reaches the right edge
+        window.location.href = 'video.html';
+        return;
+      }
   
-      arrow.style.left = `${x}px`;
+      arrow.style.left = `${lineRect.left + x}px`;
     });
   
     document.addEventListener('mouseup', function () {
       isDragging = false;
       arrow.style.cursor = 'grab';
     });
-  });
-  
+
+    // Update the arrow position on window resize
+    window.addEventListener('resize', function () {
+      const newArrowLeft = (window.innerWidth * initialArrowPosition) / 100;
+      arrow.style.left = `${newArrowLeft}px`;
+    });
+    
+});
+
