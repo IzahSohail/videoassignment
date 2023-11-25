@@ -3,7 +3,8 @@
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
-  background-image: url(images/bg.png) no-repeat fixed 100% 100%;
+  background-image: url(images/bg.png);
+  background-size: contain;
   overflow-y: scroll;
   align-items: center; /* Center vertically */
 }
