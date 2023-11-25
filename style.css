@@ -1,5 +1,3 @@
-
-
 body { /* removing scroll bar */
   margin: 0px;
   height: 687px;
@@ -11,26 +9,52 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* front page */
+/* ---------------------------------------------------------------front page */
+.pierre_container {
+  z-index: 1;
+  position: relative;
+  margin-top: -57px;
+
+}
+.pierre {
+  width: 865px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: "gimlet-display-compressed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 220px;
+  color: color: #ccc;
+  position: relative;
+  margin: 0;
+  padding-top: 30px;
+  z-index: 0;
+}
 h1, .about_vid {
   text-align: center;
-  line-height: 0.7;
+  line-height: 0.8;
+  z-index: 1;
 }
 .about_vid { /* video description */
+  position: relative;
+  margin-top: -140px;
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
   font-style: normal;
+  font-size: 15px;
   color: #ccc;
 }
-.pierre {
-  width: 500px;
-}
 
-/* adding the slider */
+/* ------------------------------------------------------- adding the slider */
 .slider-container {
   position: relative;
-  padding-top: 150px;
-  margin: 0 auto; /* Center horizontally */
+  padding-bottom: -50px;
+  margin: 0 auto;
+  z-index: 2;
 }
 .line {
   width: 40%;
