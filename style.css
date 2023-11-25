@@ -6,6 +6,7 @@ body { /* removing scroll bar */
   background-image: url(images/bg.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   overflow-y: scroll;
   align-items: center; /* Center vertically */
 }
