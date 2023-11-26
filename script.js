@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'video.html';
         return;
       }
-      // Calculate the position for each line based on the slider position
+      // display each line of about video section based on the slider position
       if (x > lineRect.width-605) {
         document.getElementById('line1').style.opacity = 1;}
 
