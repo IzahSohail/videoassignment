@@ -22,11 +22,30 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // Ensure the arrow stays within the bounds of the line
       if (x < 0) x = 0;
+      
+
+      
       if (x > lineRect.width-30) {
         // Redirect to "video.html" when the arrow reaches the right edge
         window.location.href = 'video.html';
         return;
       }
+      // Calculate the position for each line based on the slider position
+      if (x > lineRect.width-605) {
+        document.getElementById('line1').style.opacity = 1;}
+
+      if (x > lineRect.width-405) {
+        document.getElementById('line2').style.opacity = 1;}
+        
+      if (x > lineRect.width-345) {
+        document.getElementById('line3').style.opacity = 1;}
+    
+      if (x > lineRect.width-205) {
+        document.getElementById('line4').style.opacity = 1;}
+
+    
+
+
   
       arrow.style.left = `${lineRect.left + x}px`;
     });
