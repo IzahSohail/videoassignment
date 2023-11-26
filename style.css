@@ -79,7 +79,7 @@ h1, .about_vid {
 }
 .arrow {
   width: 50px;
-  background-image: url('/images/right-arrow.png');
+  background-image: url('/images/pill.png');
   background-size: cover;
   position: absolute;
   top: 50%;
