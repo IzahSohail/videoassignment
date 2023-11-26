@@ -1,7 +1,7 @@
 /* ///////////////////////////////// */
 body { /* removing scroll bar */
   margin: 0px;
-  background-color: #6c1200; 
+  background-color: rgb(93, 5, 18); 
   overflow-y: scroll;
   align-items: center; /* Center vertically */
 }
@@ -46,7 +46,7 @@ h1, .about_vid {
 .pierre_container {
   z-index: 2;
   /* position: relative; */
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .pierre {
   width: 865px;
@@ -61,7 +61,7 @@ h1, .about_vid {
   position: relative;
   margin: 0 auto; /* Center horizontally */
   padding-top: 150px;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 .line {
   width: 40%; 
