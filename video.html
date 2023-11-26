@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fever dream</title>
-   
-    <link rel="stylesheet" href="video.css">
-  </head>
-  <body>
-    <!-- Back button to go to index.html -->
-    <a href="index.html" class="back-button">Back to Home</a>
-    <script src="video.js"></script>
-  </body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fever dream</title>
+  <link rel="stylesheet" href="video.css">
+</head>
+<body>
+
+  <div class="video-container">
+    <video id="videoPlayer" controls>
+      <source src="videos/vid1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div id="optionButtons" class="hidden">
+      <button onclick="playNextVideo('eat')">Eat Pill</button>
+      <button onclick="playNextVideo('dontEat')">Don't Eat Pill</button>
+    </div>
+
+    <!-- Back button linking to index.html -->
+  <a href="index.html" class="back-button">Back to Home</a>
+
+  </div>
+
+  <script src="video.js"></script>
+</body>
 </html>
