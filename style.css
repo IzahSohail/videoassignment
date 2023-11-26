@@ -39,13 +39,12 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 210px;
-  color: #ccc;
+  color: color: #ccc;
   position: relative;
   margin: 0;
   padding-top: 50px;
   z-index: 1;
 }
-
 h1, .about_vid {
   text-align: center;
   line-height: 0.8;
@@ -75,7 +74,7 @@ h1, .about_vid {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 900%);
+  transform: translate(-50%, -50%);
 }
 .arrow {
   width: 50px;
@@ -85,6 +84,6 @@ h1, .about_vid {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(-50%,45%);
+  transform: translate(-50%, -50%);
   cursor: grab;
 }
