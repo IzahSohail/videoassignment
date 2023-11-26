@@ -32,6 +32,30 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+#eatButton {
+    background-color: #c71f73; /* Pink background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded edges */
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+#dontEatButton {
+    background-color: #07216e; /* Blue background */
+    color: #fff; /* Whrgb(3, 13, 45)t */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded edges */
+}
+  
+#dontEatButton:hover, #eatButton:hover {
+    opacity: 0.8; /* Adjust the opacity on hover as needed */
+}
   
 button {
     margin: 10px;
