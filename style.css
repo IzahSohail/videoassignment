@@ -28,7 +28,6 @@ body::-webkit-scrollbar {
 }
 .halo {
   width: 1400px;
-  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
