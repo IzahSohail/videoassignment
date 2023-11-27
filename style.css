@@ -1,52 +1,20 @@
 /* ///////////////////////////////// */
-body { /* removing scroll bar */
+/* body {
   margin: 0px;
-  background-color: rgb(93, 5, 18); 
+  background-color: #d2575a;
+  height: 687px;
   overflow-y: scroll;
-  align-items: center; /* Center vertically */
+  align-items: center;
 }
 body::-webkit-scrollbar {
   display: none;
-}
-
-/* front page */
-.background_title {
-  position: relative;
-  margin-top: 10px;
-  font-family: kalam;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 50px;
-  color: #E6DBDB;
-}
-/* .foreground_title {
-  position: relative;
-  margin-top: -320px;
-  font-family: "roc-grotesk-compressed", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 60px;
-  color: #C22712;
-  opacity: 0.9;
-  display: none;
 } */
 
-h1, .about_vid {
-  text-align: center;
-  line-height: 0.9;
-}
-.about_vid {
-  font-family: "anonymous-pro", monospace;
-  font-weight: 400;
-  font-style: normal;
-  
-}
-
 /* ---------------------------------------------------------------front page */
-.pierre_container {
+/* .pierre_container {
   z-index: 2;
-  /* position: relative; */
-  margin-top: 20px;
+  position: relative;
+  margin-top: -57px;
 }
 .pierre {
   width: 765px;
@@ -55,16 +23,53 @@ h1, .about_vid {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* the slider */
-.slider-container {
+.halo_container {
+  z-index: 0;
   position: relative;
-  margin: 0 auto; /* Center horizontally */
+  margin-top: -755px;
+}
+.halo {
+  width: 1400px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: "gimlet-display-compressed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 210px;
+  color: color: #ccc;
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+  z-index: 1;
+}
+h1, .about_vid {
+  text-align: center;
+  line-height: 0.8;
+}
+.about_vid { /* video description
+  position: relative;
+  margin-top: -120px;
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #ccc;
+  z-index: 3;
+}
+
+/* ------------------------------------------------------- adding the slider
+ .slider-container {
+  position: relative;
+  margin: 0 auto;
   padding-top: 150px;
   margin-top: 75px;
 }
 .line {
-  width: 40%; 
+  width: 40%;
   height: 5px;
   background-color: #ccc;
   position: absolute;
@@ -74,7 +79,6 @@ h1, .about_vid {
 }
 .arrow {
   width: 50px;
-  height: 50px;
   background-image: url('/images/pill.png');
   background-size: cover;
   position: absolute;
@@ -84,33 +88,97 @@ h1, .about_vid {
   cursor: grab;
 }
 
-/* About video section, each line appears at a different location and time */
 .about_vid{
   color: #ccc;
   margin-top: -160px;
 }
 
-#line1, #line2, #line3, #line4 {
+
+body { /* removing scroll bar */
+  margin: 0px;
+  background-color: #d2575a;
+  overflow-y: scroll;
+  align-items: center; /* Center vertically */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------------------------------------------------------------front page */
+.pierre_container {
+  z-index: 2;
+  position: relative;
+  margin-top: -57px;
+}
+.pierre {
+  width: 865px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.halo_container {
+  z-index: 0;
+  position: relative;
+  margin-top: -755px;
+}
+.halo {
+  width: 1400px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: "gimlet-display-compressed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 210px;
+  color: color: #ccc;
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+  z-index: 1;
+}
+h1, .about_vid {
+  text-align: center;
+  line-height: 0.8;
+}
+.about_vid { /* video description */
+  position: relative;
+  margin-top: -190px;
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #ccc;
+  z-index: 3;
+}
+
+/* ------------------------------------------------------- adding the slider */
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -35px;
+  z-index: 2;
+}
+.line {
+  width: 40%;
+  height: 5px;
+  background-color: #ccc;
   position: absolute;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-#line1 {
-  top: 80%;
-  left: 10%;
-}
-#line2 {
-  top: 37%;
-  right: 10%;
-}
-
-#line3 {
-  bottom: 40%;
-  left: 5%;
-}
-
-#line4 {
-  bottom: 15%;
-  right: 10%;
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-image: url('/images/right-arrow.png');
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: grab;
 }
