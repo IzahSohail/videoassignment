@@ -61,6 +61,7 @@ h1, .about_vid {
 }
 #about{
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* ------------------------------------------------------- adding the slider */
