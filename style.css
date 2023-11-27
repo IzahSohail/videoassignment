@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 .halo {
   width: 1400px;
   max-width: 100%;
-  height: 110%;
+  height: 820px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +52,7 @@ h1, .about_vid {
 }
 .about_vid { /* video description */
   position: relative;
-  margin-top: -190px;
+  margin-top: -240px;
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
   font-style: normal;
@@ -69,18 +69,20 @@ h1, .about_vid {
 .slider-container {
   position: relative;
   margin: 0 auto;
-  margin-top: -35px;
+  margin-top: -70px;
   z-index: 2;
 }
 .line {
   width: 40%;
-  height: 5px;
-  background-color: #ccc;
+  height: 10px;
+  background-color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 5px; 
 }
+
 .arrow {
   width: 50px;
   height: 50px;
