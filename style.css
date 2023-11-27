@@ -49,7 +49,7 @@ h1, .about_vid {
   margin-top: 20px;
 }
 .pierre {
-  width: 665px;
+  width: 765px;
   max-width: 100%;
   display: block;
   margin-left: auto;
@@ -61,7 +61,7 @@ h1, .about_vid {
   position: relative;
   margin: 0 auto; /* Center horizontally */
   padding-top: 150px;
-  margin-top: 130px;
+  margin-top: 75px;
 }
 .line {
   width: 40%; 
@@ -97,7 +97,7 @@ h1, .about_vid {
 }
 
 #line1 {
-  top: 30%;
+  top: 80%;
   left: 10%;
 }
 #line2 {
