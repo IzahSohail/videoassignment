@@ -8,19 +8,24 @@
 </head>
 <body>
 
-  <div class="video-container"> <!-- random videos to be replaced later -->
+  <div class="video-container">
     <video id="videoPlayer" controls>
       <source src="videos/vid1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
     <div id="optionButtons" class="hidden">
-      <button id="eatButton" onclick="playNextVideo('eat')">Eat Pill</button>
-      <button id="dontEatButton" onclick="playNextVideo('dontEat')">Don't Eat Pill</button>
+      <button id="walkButton" onclick="playNextVideo('walk')">Leave</button>
+      <button id="sleepButton" onclick="playNextVideo('sleep')">Continue Working</button>
+    </div>
+
+    <div id="secondOptionButtons" class="hidden">
+      <button id="tellFriendButton" onclick="playNextVideo('tellFriend')">Tell a Friend</button>
+      <button id="dontTellFriendButton" onclick="playNextVideo('dontTellFriend')">Don't Tell a Friend</button>
     </div>
 
     <!-- Back button linking to index.html -->
-  <a href="index.html" class="back-button">Back to Home</a>
+    <a href="index.html" class="back-button">Back to Home</a>
 
   </div>
 
