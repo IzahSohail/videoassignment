@@ -15,8 +15,8 @@ body::-webkit-scrollbar {
   margin-top: -57px;
 }
 .pierre {
-  width: 865px;
-  max-width: 100%;
+  width: 67%;
+  height:67%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
 .halo {
   width: 1400px;
   max-width: 100%;
+  height: 110%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +39,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 210px;
-  color: color: #ccc;
+  color: #ccc;
   position: relative;
   margin: 0;
   padding-top: 50px;
