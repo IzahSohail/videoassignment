@@ -92,9 +92,9 @@ h1, .about_vid {
   color: #ccc;
   margin-top: -160px;
 }
+*/
 
-
-body { /* removing scroll bar */
+body {
   margin: 0px;
   background-color: #d2575a;
   overflow-y: scroll;
