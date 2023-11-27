@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   background-color: #d2575a;
+  height: 687px;
   overflow-y: scroll;
   align-items: center;
 }
@@ -51,7 +52,7 @@ h1, .about_vid {
 }
 .about_vid { /* video description */
   position: relative;
-  margin-top: -190px;
+  margin-top: -120px;
   font-family: "anonymous-pro", monospace;
   font-weight: 400;
   font-style: normal;
