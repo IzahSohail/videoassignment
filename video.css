@@ -33,6 +33,30 @@ body {
     text-align: center;
 }
 
+#walkButton, #sleepButton {
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for raised effect */
+}
+
+#walkButton {
+    background-color: #c71f73; 
+}
+
+#sleepButton {
+    background-color: #07216e;
+}
+
+#walkButton:hover, #sleepButton:hover {
+    opacity: 0.8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow for glow effect on hover */
+}
+
+
 #secondOptionButtons {
     position: absolute;
     top: 50%;
@@ -42,53 +66,28 @@ body {
 }
 
 #tellFriendButton {
-    background-color: #c71f73; /* Pink background */
-    color: #fff; /* White text */
+    background-color: #c71f73;
+    color: #fff; 
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
-    margin-right: 10px; /* Adjust spacing as needed */
+    border-radius: 10px; 
+    margin-right: 10px; 
 }
 
 #dontTellFriendButton {
-    background-color: #07216e; /* Blue background */
-    color: #fff; /* Whrgb(3, 13, 45)t */
+    background-color: #07216e; 
+    color: #fff; 
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
+    border-radius: 10px; 
 }
   
 #tellFriendButton:hover, #dontTellFriendButton:hover {
-    opacity: 0.8; /* Adjust the opacity on hover as needed */
-}
-
-#walkButton {
-    background-color: #c71f73; /* Pink background */
-    color: #fff; /* White text */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
-    margin-right: 10px; /* Adjust spacing as needed */
-}
-
-#sleepButton {
-    background-color: #07216e; /* Blue background */
-    color: #fff; /* Whrgb(3, 13, 45)t */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
-}
-  
-#sleepButton:hover, #walkButton:hover {
-    opacity: 0.8; /* Adjust the opacity on hover as needed */
+    opacity: 0.8; 
 }
   
 button {
