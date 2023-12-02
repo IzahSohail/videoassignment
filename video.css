@@ -7,23 +7,126 @@ body {
     justify-content: center;
     height: 100vh;
 }
-  
+
 .video-container {
     position: relative;
     width: 100%;
     height: 100vh; /* Use the full viewport height */
 }
-  
+
 #videoPlayer {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
-  
+
 /* Hide the option buttons initially */
 .hidden {
    display: none;
 }
+
+/* red button */
+.draw-border {
+	 box-shadow: inset 0 0 0 1px #ffffff;
+	 color: #ffffff;
+	 transition: color 0.25s 0.0833333333s;
+	 position: relative;
+}
+ .draw-border::before, .draw-border::after {
+	 border: 0 solid transparent;
+	 box-sizing: border-box;
+	 content: '';
+	 pointer-events: none;
+	 position: absolute;
+	 width: 0;
+	 height: 0;
+	 bottom: 0;
+	 right: 0;
+}
+ .draw-border::before {
+	 border-bottom-width: 1px;
+	 border-left-width: 1px;
+}
+ .draw-border::after {
+	 border-top-width: 1px;
+	 border-right-width: 1px;
+}
+ .draw-border:hover {
+	 color: #f03535;
+}
+ .draw-border:hover::before, .draw-border:hover::after {
+	 border-color: #f03535;
+	 transition: border-color 0s, width 0.25s, height 0.25s;
+	 width: 100%;
+	 height: 100%;
+}
+ .draw-border:hover::before {
+	 transition-delay: 0s, 0s, 0.25s;
+}
+ .draw-border:hover::after {
+	 transition-delay: 0s, 0.25s, 0s;
+}
+ .btn {
+	 background: none;
+	 border: none;
+	 cursor: pointer;
+	 line-height: 1.5;
+	 font: 700 1.2rem 'Roboto Slab', sans-serif;
+	 padding: 1em 2em;
+	 letter-spacing: 0.05rem;
+}
+
+/* blue button */
+.draw-border-blue {
+    box-shadow: inset 0 0 0 4px #ffffff;
+    color: #ffffff;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.draw-border-blue::before,
+.draw-border-blue::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.draw-border-blue::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.draw-border-blue::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.draw-border-blue:hover {
+    color: #0a38a3; /* Updated color */
+}
+
+.draw-border-blue:hover::before,
+.draw-border-blue:hover::after {
+    border-color: #0a38a3; /* Updated color */
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-border-blue:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border-blue:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+}
+
 
 #optionButtons {
     position: absolute;
@@ -32,31 +135,81 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-#eatButton {
-    background-color: #c71f73; /* Pink background */
+
+#walkButton, #sleepButton {
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for raised effect */
+}
+
+#walkButton {
+    background-color: #c71f73; 
+}
+
+#sleepButton {
+    background-color: #07216e;
+}
+
+#walkButton:hover, #sleepButton:hover {
+    opacity: 0.8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow for glow effect on hover */
+}
+
+
+#secondOptionButtons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#tellFriendButton {
     color: #fff; /* White text */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
     margin-right: 10px; /* Adjust spacing as needed */
 }
 
-#dontEatButton {
-    background-color: #07216e; /* Blue background */
+#dontTellFriendButton {
     color: #fff; /* Whrgb(3, 13, 45)t */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded edges */
 }
-  
-#dontEatButton:hover, #eatButton:hover {
+
+#tellFriendButton:hover, #dontTellFriendButton:hover {
     opacity: 0.8; /* Adjust the opacity on hover as needed */
 }
-  
+
+#walkButton {
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+#sleepButton {
+    color: #fff; /* Whrgb(3, 13, 45)t */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sleepButton:hover, #walkButton:hover {
+    opacity: 0.8; /* Adjust the opacity on hover as needed */
+}
+
 button {
     margin: 10px;
     padding: 10px;
@@ -71,13 +224,11 @@ button {
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
-    background-color: #301915;
     border: 1px solid #fff;
-    border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
+    font-family: monospace;
 }
-  
+
 .back-button:hover {
-    background-color: #fff;
-    color: #301915;
+    color: #f03535;
 }
