@@ -1,9 +1,8 @@
 body { /* removing scroll bar */
   margin: 0px;
-  background-color: #d2575a;
+  background-color: rgb(213, 167, 137);
   overflow-y: scroll;
   align-items: center; /* center vertically */
-  background-color: #595096;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -75,7 +74,7 @@ h1, .about_vid {
 .line {
   width: 40%;
   height: 10px;
-  background-color: #ffffff;
+  background-color: #000000;
   position: absolute;
   top: 50%;
   left: 50%;
