@@ -53,5 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
     arrow.style.left = `${newArrowLeft}px`;
   });
 });
+var backgroundMusic = document.getElementById('backgroundMusic');
 
+      backgroundMusic.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+      }, false);
 

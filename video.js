@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
       let nextVideoSource;
   
       if (choice === 'walk') {
-        nextVideoSource = 'videos/vid2.mp4';
+        nextVideoSource = 'videos/walk.mp4';
       } else {
-        nextVideoSource = 'videos/vid3.mp4';
+        nextVideoSource = 'videos/sleep.mp4';
       }
   
       // Change the video source and play the next video
@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
         let nextVideoSource;
     
         if (choice === 'tellFriend') {
-          nextVideoSource = 'videos/vid1.mp4';
+          nextVideoSource = 'videos/tell.mp4';
         } else {
-          nextVideoSource = 'videos/vid3.mp4';
+          nextVideoSource = 'videos/notTell.mp4';
         }
     
         // Change the video source and play the next video
