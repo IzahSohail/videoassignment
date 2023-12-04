@@ -1,12 +1,13 @@
 body { /* removing scroll bar */
   margin: 0px;
-  background-color: rgb(213, 167, 137);
+  background-color: rgb(215, 182, 160);
   overflow-y: scroll;
   align-items: center; /* center vertically */
 }
 body::-webkit-scrollbar {
   display: none;
 }
+
 
 /* ---------------------------------------------------------------front page */
 .pierre_container {

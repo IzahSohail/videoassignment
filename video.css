@@ -24,7 +24,25 @@ body {
 .hidden {
    display: none;
 }
- 
+#firstText{
+    position: relative;
+    top: -90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+}
+
+#secondText{
+    position: relative;
+    top: -90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+}
 
 #optionButtons {
     position: absolute;

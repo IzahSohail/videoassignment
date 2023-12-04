@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const line = document.getElementById('line');
   const body = document.body;
   const h1 = document.querySelector('h1');
-
+  
   let isDragging = false;
 
   // Set the initial position of the arrow as a percentage of the screen width
@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
       body.style.backgroundColor = '#8a1530'; // Red background color
       h1.style.color = '#FFFFFF'; // White h1 color
       body.style.transition = 'background-color 0.5s, color 0.5s'; // Transition effect
+      document.getElementById('player').play();
     }
 
     arrow.style.left = `${lineRect.left + x}px`;
@@ -52,11 +53,24 @@ document.addEventListener('DOMContentLoaded', function () {
     const newArrowLeft = (window.innerWidth * initialArrowPosition) / 100;
     arrow.style.left = `${newArrowLeft}px`;
   });
-});
-var backgroundMusic = document.getElementById('backgroundMusic');
 
-      backgroundMusic.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-      }, false);
+  document.addEventListener('DOMContentLoaded', function () {
+    const bgMusic = document.getElementById('bgMusic');
+    const playPauseIcon = document.getElementById('playPauseIcon');
+  
+    // Function to toggle play/pause for background music
+    window.togglePlayPause = function () {
+      if (bgMusic.paused) {
+        bgMusic.play();
+        playPauseIcon.innerHTML = '<img src="/images/pause.png" alt="Pause">';
+      } else {
+        bgMusic.pause();
+        playPauseIcon.innerHTML = '<img src="/images/play.png" alt="Play">';
+      }
+    };
+  });
+  
+});
+
+
 
