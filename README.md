@@ -20,8 +20,9 @@ We all brainstormed for different ideas and planned the process and wireframe of
   - The background color undergoes a smooth transition into a darker theme, symbolizing the initiation of the psychological journey. I considered changing the background back to the original one if the user slides back but decided not to as I feel this fits our concept better: once you reach a certain point, there is no returning
   - some text appears at the center of the screen offering users a brief insight into what lies ahead.
   - background music starts playing. I initially wanted the background music to play automatically however, after a lot of playing around with code and searching online, I realised autoplay isn't possible. So I decided to implement the audio feature this way and personally, I believe this approach contributes significantly better to the overall user experience!
-  
+
   Sliding all the way to the end of the slider takes the user to the video experience page. 
+  
   Here I added a back to home button with some basic styling so the user can go back to the home page and restart the experience. At the end of each video, the user is given a choice between 2 options so I had to figure out how to implement that. Again, I had to work with a lot of javascript code to make this possible since we also had to play specific videos depending on the choices made by the user.
   I also added a typewriter text effect to text that is displayed at the end of each video for a better user experience.
 
