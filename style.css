@@ -35,6 +35,24 @@ body::-webkit-scrollbar {
   margin-left: auto;
   margin-right: auto;
 }
+.button {
+   z-index:2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: monospace;
+}
+
+.button:hover {
+   z-index:2;
+    color: #f03535;
+}
+
 h1 {
   font-family: "gimlet-display-compressed", serif;
   font-weight: 400;
@@ -93,4 +111,12 @@ h1, .about_vid {
   left: 0;
   transform: translate(-50%, -50%);
   cursor: grab;
+}
+
+#bts-button{
+  position: absolute;
+  top: 92%;
+  left: 90%;
+  transform: translate(-40%, -50%);
+  text-align: center;
 }
