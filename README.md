@@ -23,8 +23,10 @@ We all brainstormed for different ideas and planned the process and wireframe of
 
   Sliding all the way to the end of the slider takes the user to the video experience page. 
   
-  Here I added a back to home button with some basic styling so the user can go back to the home page and restart the experience. At the end of each video, the user is given a choice between 2 options so I had to figure out how to implement that. Again, I had to work with a lot of javascript code to make this possible since we also had to play specific videos depending on the choices made by the user.
-  I also added a typewriter text effect to text that is displayed at the end of each video for a better user experience.
+  Here I added:
+  - a back to home button with some basic styling so the user can go back to the home page and restart the experience.
+  - At the end of each video, the user is given a choice between 2 options so I had to figure out how to implement that. Again, I had to work with a lot of javascript code to make this possible since we also had to play specific videos depending on the choices made by the user.
+  - I also added a typewriter text effect to text that is displayed at the end of each video for a better user experience.
 
 
 
