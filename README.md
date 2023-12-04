@@ -3,9 +3,8 @@ Communications lab video assignment
 
 ## Project Name: Fever Dream 
 
-## Process 
-- Concept and Storyline:
 
+## Process 
 - Audio Recording and Video Shooting 
 
 This part took a lot of effort and time. We had to shoot and reshoot a lot of parts until we got what we wanted. It was a fun process with a lot of trial and error because we are not experts. We had to ask some of our friends to act and we had to stay up late at night to shoot when the Art center was empty. We also had to get some things from the prop loan in the Art center. For the audio we used the zoom recording and for the actual filming we used a phone and a tripod. 
@@ -30,7 +29,7 @@ We all brainstormed for different ideas and planned the process and wireframe of
 
    **Jiho**:
   I worked mostly with html, css and the front page design for this assignment. It took an unnecessary amount of time specifically when designing the homepage because I was experiencing artist's block. I tried centering texts, manipulating fonts, playing around with colours but none seemed to coordinate harmoniously. In fact, we had to ditch our initial design idea because nothing seemed to align with our concept. I thought it was better to start anew rather than hold onto something that clearly wasn't working so I got to brainstorming other potential ideas. Unfortunately the vision didn't end up working because 1) it looked tacky on the website and 2) it was pixelated and low quality hence I had to scrap this too. In the end, I decided to go for minimalism which is how our front page came to fruition: pierre holding a red or blue pill, like those featured in the video, with a slight rainbow glow to symbolise hallucination. Whilst I was skeptical about this design, I think it worked the best out of all the other previous designs and took a significantly shorter time to produce. However, the positioning of everything using html was an immense pain. Everything had to be placed in this order, from background to foreground: 1) rainbow aura, 2) title, 3) pierre, 4) description/ slider. Whilst manipulating the z-index helped achieve this order, it also pushed certain divs from the center and so fixing this took an unprecedented amount of time.
-  Furthermore, with regards to decorating the button with css, it was also an incredibly time consuming job as the effect we were trying to implement was so complicated. We found that our css button used scss code which we then had to translate into our familiar css. Hence the process served an arduous experience, there was a lot of guesswork involved. we included excluded specific parts of the code, moved it around to target a specific part of an element. Whilst some parts we found were lacking and would have liked to edit, we thought it was best the way it is, especially with considerations to the time constraint that we had determined for ourselves. We made it to mimic the red pill blue pill to show that these choices have major effects to the storyline. 
+  Furthermore, with regards to decorating the button with css, it was also an incredibly time consuming job as the effect we were trying to implement was so complicated. We found that our css button used scss code which we then had to translate into our familiar css. Hence the process served an arduous experience, there was a lot of guesswork involved. we included excluded specific parts of the code, moved it around to target a specific part of an element so that everything would work. Whilst some parts we found were lacking and would have liked to edit even further, we thought it was best the way it is, especially with considerations to the time constraint that we had determined for ourselves. We made it to mimic the red pill blue pill to show that these choices have major effects to the storyline. 
 
 ## Reflection and Evaluation: 
 
