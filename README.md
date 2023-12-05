@@ -46,5 +46,5 @@ Of Course there is still a lot that can be done to make it more complex and inte
 
 **Jiho**: Whilst again, this project felt like a gamble in the sense that it would either be a hit or miss due to its complexity, I was incredibly happy with the final result. I think overall everything including the design, video editing and audio interlaced really well together and so I had no complaints regarding the final result. However for future reference, it would interesting to make a more complex story where each decision significantly alters the story path and whilst this would be very ambitious to take on, i would love to see it come to fruition. 
 
-**Pierre**:
+**Pierre**: No words can fully convey how rewarding this journey has been. Creating my first-ever short movie, from scripting to filming and editing, feels like a significant milestone. It may not be Oscar-worthy, but it represents a huge step forward. I gained invaluable experience from overcoming numerous challenges throughout the process. While the final movie isn't precisely what I initially imagined, it's incredibly beautiful to see how everything came together.
 
