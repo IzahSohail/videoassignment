@@ -44,7 +44,7 @@ Of Course there is still a lot that can be done to make it more complex and inte
  
 **Izah**:
 
-**Jiho**:
+**Jiho**: Whilst again, this project felt like a gamble in the sense that it would either be a hit or miss due to its complexity, I was incredibly happy with the final result. I think overall everything including the design, video editing and audio interlaced really well together and so I had no complaints regarding the final result. However for future reference, it would interesting to make a more complex story where each decision significantly alters the story path and whilst this would be very ambitious to take on, i would love to see it come to fruition. 
 
 **Pierre**:
 
